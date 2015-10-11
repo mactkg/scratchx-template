@@ -2,7 +2,6 @@ var ext = require('./ext.js');
 var data = require('./data.json');
 
 (function(e) {
-  debugger;
   // merge objects
   for (var attrname in ext) {
     if (ext.hasOwnProperty(attrname)) {
