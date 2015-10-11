@@ -3,7 +3,7 @@ A template project for rapid creation of scratchx extension.
 
 ## How to use
 
-### 1. Register <ngrok.com> and configure
+### 1. Register <http://ngrok.com> and configure
 
 ### 2. Clone it
 
