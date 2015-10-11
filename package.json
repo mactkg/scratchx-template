@@ -11,7 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^11.2.0",
-    "browserify-data": "^0.2.0",
     "gulp": "^3.9.0",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
