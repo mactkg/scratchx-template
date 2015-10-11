@@ -1,9 +1,16 @@
 // definition of blocks
 {
-  "title": "scratchx-template",
-  "descriptor": {
-    blocks: [
-      [' ', 'my first block: %n', 'myFirstBlock', 'val1']
-    ]
+  title: "scratchx-template",
+  descriptor: {
+    en: {
+      blocks: [
+        [' ', 'my first block: %n', 'myFirstBlock', 'val1']
+      ]
+    },
+    ja: {
+      blocks: [
+        [' ', '最初のブロック: %n', 'myFirstBlock', '値1']
+      ]
+    }
   }
 }
