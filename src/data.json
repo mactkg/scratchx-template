@@ -1,0 +1,9 @@
+// definition of blocks
+{
+  "title": "scratchx-template",
+  "descriptor": {
+    blocks: [
+      [' ', 'my first block: %n', 'myFirstBlock', 'val1']
+    ]
+  }
+}
