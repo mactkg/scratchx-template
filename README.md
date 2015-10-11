@@ -28,3 +28,6 @@ $ gulp
 ```
 
 :tada:
+
+## License
+MIT License
