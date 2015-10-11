@@ -27,7 +27,34 @@ Core codes of an extension is located in `src/ext.js`.  Write some codes there. 
 $ gulp
 ```
 
-:tada:
+## Deploy
+
+### 1. Fork this repo
+
+### 2. Add the repo as a remote
+
+```
+$ git remote add YOURID git@github.com:YOURID/your-ext.git
+```
+
+### 3. Push it
+
+```
+$ git push -u YOURID master
+```
+
+### 4. Add the following 2 lines to the `[remote YOURID]` section of `.git/config`
+
+```
+push = refs/heads/master:refs/heads/gh-pages
+push = refs/heads/master:refs/heads/master
+```
+
+### 5. Re-push
+
+```
+$ git push
+```
 
 ## License
 MIT License
