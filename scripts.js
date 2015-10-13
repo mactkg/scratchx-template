@@ -5,12 +5,12 @@ module.exports=// definition of blocks
   descriptor: {
     en: {
       blocks: [
-        [' ', 'my first block: %n', 'myFirstBlock', 'val1']
+        [' ', 'alert %n', 'alert', 'Hello!']
       ]
     },
     ja: {
       blocks: [
-        [' ', '最初のブロック: %n', 'myFirstBlock', '値1']
+        [' ', '%n とアラートを出す', 'alert', 'こんにちは!']
       ]
     }
   }
@@ -26,8 +26,8 @@ module.exports = {
     return {status: 2, msg: 'Ready'};
   },
 
-  myFirstBlock: function(val) {
-    console.log("called myFirstBlock! val:", val);
+  alert: function(val) {
+    alert(val);
   }
 };
 

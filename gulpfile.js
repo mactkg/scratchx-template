@@ -5,13 +5,9 @@ var webserver = require('gulp-webserver');
 var source = require('vinyl-source-stream');
 var ngrok = require('ngrok');
 var browserify = require('browserify');
-var browserifyData = require('browserify-data');
-var uglifyify = require('uglifyify');
 
 gulp.task('js', function() {
   browserify({entries: ['src/index.js']})
-    //.transform(browserifyData)
-    //.transform(uglifyify)
     .bundle()
     .pipe(source('scripts.js'))
     .pipe(gulp.dest('./'));
