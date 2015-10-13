@@ -7,7 +7,7 @@ module.exports = {
     return {status: 2, msg: 'Ready'};
   },
 
-  myFirstBlock: function(val) {
-    console.log("called myFirstBlock! val:", val);
+  alert: function(val) {
+    alert(val);
   }
 };

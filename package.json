@@ -16,7 +16,6 @@
     "gulp-util": "^3.0.6",
     "gulp-webserver": "^0.9.1",
     "ngrok": "^0.2.2",
-    "uglifyify": "^3.0.1",
     "vinyl-source-stream": "^1.1.0"
   }
 }
