@@ -10,12 +10,12 @@
   "author": "mactkg <mactkg@gmail.com> (http://makerbox.net/)",
   "license": "ISC",
   "devDependencies": {
-    "browserify": "^11.2.0",
+    "browserify": "^13.0.0",
     "gulp": "^3.9.0",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
     "gulp-webserver": "^0.9.1",
-    "ngrok": "^0.2.2",
+    "ngrok": "^2.1.6",
     "vinyl-source-stream": "^1.1.0"
   }
 }
